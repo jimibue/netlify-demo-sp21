@@ -1,3 +1,4 @@
+import logo from './logo.svg';
 import './App.css';
 import axios from 'axios'
 
@@ -13,7 +14,6 @@ function App() {
   return (
     <div className="App">
         <h1>James' Resume</h1>
-        <p>Yo</p>
         <pre>
           {JSON.stringify(users)}
         </pre>
